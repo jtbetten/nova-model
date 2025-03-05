@@ -14,9 +14,9 @@ import Textarea from "react-textarea-autosize";
 import Image from "next/image";
 
 const examples = [
-  "Example 1",
-  "Example 2",
-  "Example 3",
+  "Is there a way to refund a charge programmatically?",
+  "Can I use Stripe to process ACH bank transfers?",
+  "What’s the difference between PaymentIntent and SetupIntent?",
 ];
 
 export default function Chat() {
@@ -83,7 +83,7 @@ export default function Chat() {
               className="h-20 w-20"
             />
             <h1 className="text-lg font-semibold text-black">
-              Hi, I'm a fine tuned LLM.
+              Hi, I'm Jordan Betten's Fine Tuned LLM.
             </h1>
             <p className="text-gray-500">
               I'm part of a series of computational experiments taught by{" "}
